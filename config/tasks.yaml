@@ -1,0 +1,25 @@
+research_task:
+  description: >
+    Use web search to research the company behind the domain {domain}. Collect:
+    1) Company overview (what they do, where based, when founded if available)
+    2) Products/services (main offerings)
+    3) Target customers/market
+    4) Recent developments/news (last 6–12 months if possible)
+    5) Key competitors
+    Provide links/sources for each section.
+    Keep it concise (max ~700 words).
+  expected_output: >
+    A structured research brief with headings and bullet points, including sources/links.
+  agent: researcher
+
+analysis_task:
+  description: >
+    Using the research brief, write a business-ready market research report for {domain} in Markdown.
+    Include:
+    - Executive Summary
+    - SWOT Analysis (S/W/O/T bullets)
+    - Strategic Recommendations (3–5 actionable items)
+    Keep it concise (max ~900 words).
+  expected_output: >
+    A polished Markdown report with the required sections.
+  agent: analyst
