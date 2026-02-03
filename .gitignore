@@ -9,3 +9,6 @@ output/
 # Virtual environments
 .venv
 .env
+githublink.txt
+excercise-week-04.ipynb
+visualization-excercise.ipynb
